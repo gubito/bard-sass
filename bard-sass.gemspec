@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.version       = BardSass::VERSION
   spec.authors       = ["Michael Gubitosa"]
   spec.email         = ["gubito@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Sass files across all Bot and Rose projects}
+  spec.summary       = %q{Sass files across all Bot and Rose projects}
+  spec.homepage      = "https://github.com/gubito/bard-sass"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
