@@ -11,3 +11,43 @@
   +blueprint-interaction
   +blueprint-colors
 
+// BUTTONS
+
+@mixin button( $bg: $primaryColor, $text-color: #fcfcfc, $hover: true )
+  display: inline-block
+  font: bold 1.6em $font
+  line-height: 3.0em
+  color: $text-color
+  border: 2px solid darken( $bg, 5% )
+  background: $bg
+  +background-image(linear-gradient( $bg, darken( $bg, 5% ) ) )
+  +border-radius( 2px )
+  +box-shadow(#999 0px 0px 3px)
+  padding: 0 20px
+  cursor: pointer
+  text-align: center
+  text-decoration: none
+  margin: 0px
+  min-width: 300px
+  cursor: default
+  &:focus
+    display: inline-block
+    font: bold 1.6em $font
+    line-height: 3.0em
+    color: $text-color
+    border: 2px solid darken( $bg, 5% )
+    background: $bg
+    +background-image(linear-gradient( $bg, darken( $bg, 5% ) ) )
+    +border-radius( 2px )
+    +box-shadow(#999 0px 0px 3px)
+    padding: 0 20px
+    cursor: pointer
+    text-align: center
+    text-decoration: none
+    margin: 0px 6px
+    min-width: 300px
+    cursor: default
+  @if $hover
+    cursor: pointer
+    &:hover
+      background: darken( $bg, 5% )
