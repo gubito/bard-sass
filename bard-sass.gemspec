@@ -4,7 +4,7 @@ require 'bard/sass/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "bard-sass"
-  spec.version       = BardSass::VERSION
+  spec.version       = "0.1.0"
   spec.authors       = ["Michael Gubitosa"]
   spec.email         = ["gubito@gmail.com"]
   spec.description   = %q{Sass files across all Bot and Rose projects}
