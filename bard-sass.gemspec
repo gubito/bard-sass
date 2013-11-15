@@ -1,7 +1,3 @@
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bard/sass/version'
-
 Gem::Specification.new do |spec|
   spec.name          = "bard-sass"
   spec.version       = "0.1.0"
